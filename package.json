@@ -19,5 +19,12 @@
   "bin": {
     "brain-games": "bin/brain-games.js"
   },
-  "homepage": "https://github.com/Pavel9-5/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/Pavel9-5/frontend-project-lvl1#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
 }
