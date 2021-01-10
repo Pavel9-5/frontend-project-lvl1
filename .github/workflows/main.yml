@@ -1,5 +1,5 @@
 # Name of workflow
-name: Run Linter
+name: main
 
 # Trigger the workflow on push or pull request
 on:
@@ -16,8 +16,11 @@ jobs:
         # Check-out repository under GitHub workspace
         # https://github.com/actions/checkout
       - uses: actions/checkout@v2
+        # Install and build project
+      - name: npm install, build
+        run: make install
         # Step's name
-      - name: Run linter
+      - name: runEsLint
         # Run Linter
         run: |
           make lint
