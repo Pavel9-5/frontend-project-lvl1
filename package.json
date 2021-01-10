@@ -22,9 +22,10 @@
   "homepage": "https://github.com/Pavel9-5/frontend-project-lvl1#readme",
   "devDependencies": {},
   "dependencies": {
-    "readline-sync": "^1.4.10",
     "eslint": "^7.17.0",
+    "eslint-config-airbnb": "^18.2.1",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-plugin-import": "^2.22.1",
+    "readline-sync": "^1.4.10"
   }
 }
